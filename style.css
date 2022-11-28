@@ -6,3 +6,97 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
+
+body{
+    /*position: absolute;*/
+    width: 1170px;
+    height: 650px;
+    background-image: url(./img/bacground.jpg);
+    background-size: cover;
+}
+header{
+    padding: 35px;
+    display: flex;
+}
+section {
+padding: 10px 100px;
+}
+nav{
+    display: flex;
+    width: 1000px;
+    height: 30px;
+    margin-bottom: 150px;
+}
+.logo{
+width: 40px;
+height: 30px;
+
+}
+ul{
+   list-style: none;
+   display: flex; 
+   align-items: center;
+   margin-left: 50px;
+}
+li{
+    margin-left: 30px;
+    list-style: none;
+   
+}
+a{
+    font-family: 'Anton';
+text-decoration: none;
+font-weight: 400;
+font-size: 14px;
+color: #FFFFFF;
+list-style: none;
+}
+.number{
+font-weight: 400;
+font-size: 17px;
+line-height: 26px;
+text-align: right;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-left: auto;
+}
+
+.header-itme{
+    width: 500px;
+    height: 230px;
+}
+.header-itme h3{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    
+}
+.header-itme h1{
+    font-weight: 400;
+font-size: 70px;
+line-height: 100px;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-bottom: 25px;
+}
+.header-itme button{
+    width: 238px;
+height: 40px;
+border: 1px solid #FFFFFF;
+background-color: Transparent;
+background-repeat:no-repeat;
+}
+.btn{
+
+    font-weight: 400;
+font-size: 17px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
